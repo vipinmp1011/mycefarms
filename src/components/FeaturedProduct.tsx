@@ -22,7 +22,7 @@ export const FeaturedProduct: React.FC = () => {
   };
 
   const handleWhatsApp = () => {
-    const phone = "919876543210";
+    const phone = "917306307571";
     const text = encodeURIComponent(
       `🌱 *MYCEFARMS FEATURED SPAWN ORDER*\nProduct: *${spawnProduct.nameEn}* (${spawnProduct.nameMl})\nQuantity: ${qty} Kg\nPrice: ${qty} x ₹${spawnProduct.price} = ₹${spawnProduct.price * qty}\n\nPlease share delivery and payment instructions.`
     );

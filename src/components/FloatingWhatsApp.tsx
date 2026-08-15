@@ -5,7 +5,7 @@ import { MessageCircle } from "lucide-react";
 
 export const FloatingWhatsApp: React.FC = () => {
   const handleClick = () => {
-    const phone = "919876543210";
+    const phone = "917306307571";
     const text = encodeURIComponent("നമസ്കാരം MYCEFARMS! എനിക്ക് Mushroom Spawn സാങ്കേതിക സഹായം ആവശ്യമുണ്ട്.");
     window.open(`https://wa.me/${phone}?text=${text}`, "_blank");
   };

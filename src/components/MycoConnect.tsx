@@ -13,7 +13,7 @@ export const MycoConnect: React.FC<MycoConnectProps> = ({ onOpenConsultation }) 
   const { t } = useLanguage();
 
   const handleJoinWhatsAppGroup = () => {
-    const phone = "919876543210";
+    const phone = "917306307571";
     const text = encodeURIComponent("നമസ്കാരം MYCEFARMS! എനിക്ക് MycoConnect കർഷക കമ്മ്യൂണിറ്റിയിൽ ചേരാൻ താല്പര്യമുണ്ട്.");
     window.open(`https://wa.me/${phone}?text=${text}`, "_blank");
   };

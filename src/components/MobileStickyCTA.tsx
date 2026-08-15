@@ -8,7 +8,7 @@ export const MobileStickyCTA: React.FC = () => {
   const { t } = useLanguage();
 
   const handleWhatsApp = () => {
-    const phone = "919876543210";
+    const phone = "917306307571";
     const text = encodeURIComponent("നമസ്കാരം MYCEFARMS! എനിക്ക് Spawn Order ആവശ്യമുണ്ട്.");
     window.open(`https://wa.me/${phone}?text=${text}`, "_blank");
   };

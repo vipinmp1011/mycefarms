@@ -14,7 +14,7 @@ export const FreshMushrooms: React.FC = () => {
   const freshProducts = demoProducts.filter((p) => p.category === "fresh");
 
   const handleWhatsApp = (productName: string, price: number) => {
-    const phone = "919876543210";
+    const phone = "917306307571";
     const text = encodeURIComponent(
       `🌱 *MYCEFARMS FRESH MUSHROOM ORDER*\nProduct: *${productName}*\nPrice: ₹${price} / 250g\n\nPlease check availability and delivery details.`
     );

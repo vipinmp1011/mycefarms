@@ -26,7 +26,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({ isOpen, on
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const phone = "919876543210";
+    const phone = "917306307571";
     const text = encodeURIComponent(
       `🌱 *MYCEFARMS CONSULTATION REQUEST*\n👤 Name: ${formData.name}\n📞 Phone: ${formData.phone}\n📍 District: ${formData.district}\n💡 Topic: ${formData.topic}\n📝 Notes: ${formData.notes || "N/A"}\n\nPlease contact me for technical consultation.`
     );
@@ -105,7 +105,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({ isOpen, on
               <input
                 required
                 type="tel"
-                placeholder="e.g. 9876543210"
+                placeholder="e.g. 7306307571"
                 value={formData.phone}
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 className="w-full p-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:border-[#7CC043]"

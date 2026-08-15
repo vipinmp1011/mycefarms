@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
   const { t } = useLanguage();
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/919876543210", "_blank");
+    window.open("https://wa.me/917306307571", "_blank");
   };
 
   return (
@@ -118,7 +118,7 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#7CC043] shrink-0" />
-                <span>+91 98765 43210 (Demo Contact)</span>
+                <span>+91 7306307571</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#7CC043] shrink-0" />

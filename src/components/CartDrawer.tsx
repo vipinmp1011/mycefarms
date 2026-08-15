@@ -142,7 +142,7 @@ export const CartDrawer: React.FC = () => {
                   </label>
                   <input
                     type="text"
-                    placeholder="e.g. 9876543210"
+                    placeholder="e.g. 7306307571"
                     value={customerInfo.phone}
                     onChange={(e) =>
                       setCustomerInfo((prev) => ({ ...prev, phone: e.target.value }))

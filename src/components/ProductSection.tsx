@@ -142,7 +142,7 @@ export const ProductSection: React.FC = () => {
 
   const handleDirectWhatsApp = (product: ProductItem) => {
     const qty = getQty(product.id);
-    const phone = "919876543210";
+    const phone = "917306307571";
     const text = encodeURIComponent(
       `🌱 *MYCEFARMS QUICK PRODUCT ORDER*\nProduct: *${product.nameEn}* (${product.nameMl})\nQty: ${qty} x ₹${product.price}\nTotal: ₹${product.price * qty}\n\nPlease share payment and delivery details.`
     );
