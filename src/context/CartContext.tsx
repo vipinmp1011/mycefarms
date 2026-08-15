@@ -113,7 +113,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   const checkoutViaWhatsApp = () => {
-    const phoneNumber = "917306307571"; // Official MYCEFARMS WhatsApp business helpline demo number
+    const phoneNumber = "917306307571"; // Official MYCEFARMS WhatsApp business helpline
     let text = `🌱 *MYCEFARMS NEW ORDER REQUEST*\n\n`;
     text += `*Customer Details:*\n`;
     text += `👤 Name: ${customerInfo.name || "Customer"}\n`;

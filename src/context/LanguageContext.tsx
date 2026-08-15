@@ -180,7 +180,7 @@ const translations: Record<Language, Record<string, string>> = {
     faq_q7: "Technical Support ലഭിക്കുമോ?",
     faq_a7: "അതെ, MYCEFARMS-ൽ നിന്നും സ്പോൺ വാങ്ങുന്നവർക്ക് വിതയ്ക്കൽ മുതൽ വിളവെടുപ്പ് വരെയുള്ള സംശയങ്ങൾക്ക് വാട്സ്ആപ്പ്/ഫോൺ വഴി നേരിട്ട് സപ്പോർട്ട് ലഭിക്കും.",
     faq_q8: "Spawn എങ്ങനെ order ചെയ്യാം?",
-    faq_a8: "വെബ്‌സൈറ്റിലെ 'Spawn Order' ബട്ടൺ വഴിയോ അല്ലെങ്കിൽ നേരിട്ട് WhatsApp +91 7306307571 (ഡെമോ) ലേക്ക് മെസ്സേജ് അയച്ചോ ഓഡർ ചെയ്യാം.",
+    faq_a8: "വെബ്‌സൈറ്റിലെ 'Spawn Order' ബട്ടൺ വഴിയോ അല്ലെങ്കിൽ നേരിട്ട് WhatsApp +91 7306307571 ലേക്ക് മെസ്സേജ് അയച്ചോ ഓഡർ ചെയ്യാം.",
 
     // Final CTA
     final_cta_title: "ഇന്ന് തന്നെ നിങ്ങളുടെ Mushroom Farming Journey ആരംഭിക്കൂ.",
